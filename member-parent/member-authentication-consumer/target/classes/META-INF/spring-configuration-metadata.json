@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "name": "short.message",
+      "type": "com.firenay.leave.config.ShortMessageProperties",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "short.message.app-code",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.code",
+      "type": "java.lang.String",
+      "description": "测试模式需要用的验证码",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties",
+      "defaultValue": "5201314"
+    },
+    {
+      "name": "short.message.content",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties",
+      "defaultValue": "Welcome! Your code is："
+    },
+    {
+      "name": "short.message.email-access",
+      "type": "java.lang.String",
+      "description": "邮箱模式用于接收账号",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties",
+      "defaultValue": "1046762075"
+    },
+    {
+      "name": "short.message.host",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.method",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.mode",
+      "type": "java.lang.String",
+      "description": "test | email | PhoneNUm   三种模式",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties",
+      "defaultValue": "test"
+    },
+    {
+      "name": "short.message.path",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.sign",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.skin",
+      "type": "java.lang.String",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.topic",
+      "type": "java.lang.String",
+      "description": "邮箱模式账号的授权码",
+      "sourceType": "com.firenay.leave.config.ShortMessageProperties",
+      "defaultValue": " LEAVE "
+    }
+  ],
+  "hints": []
+}
